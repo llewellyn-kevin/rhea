@@ -15,7 +15,7 @@
       <section class="container">
         <nav role="navigation">
           <ul>
-            <li><a href="">Create Account</a></li>
+            <li><a href="<%= Routes.page_path(@conn, :create_account) %>">Create Account</a></li>
             <li><a href="">Login</a>
           </ul>
         </nav>
