@@ -1,7 +1,4 @@
 
-<div class="back-image">
-  <img class="back-image" src="<%= Routes.static_path(@conn, "/images/space.jpg") %>" />
-</div>
 
 <section class="hero">
   <h1><%= gettext "%{name}", name: "RHEA" %></h1>

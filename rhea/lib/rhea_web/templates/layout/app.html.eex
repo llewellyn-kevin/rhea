@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
   </head>
   <body>
-    <main role="main" class="container">
-      <%= render @view_module, @view_template, assigns %>
-    </main>
+    <div class="back-image">
+      <img class="back-image" src="<%= Routes.static_path(@conn, "/images/space.jpg") %>" />
+    </div>
     <header>
       <section class="container">
         <nav role="navigation">
@@ -21,6 +21,10 @@
         </nav>
       </section>
     </header>
+    <main role="main" class="container">
+      <%= render @view_module, @view_template, assigns %>
+    </main>
+
     <script type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
   </body>
 </html>

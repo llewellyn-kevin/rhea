@@ -1,0 +1,6 @@
+
+<section class="card">
+  <p class="cheader">Create Account</p>
+  <label for="username">Username:</label>
+  <input name="username" type="text"></input>
+</section>
